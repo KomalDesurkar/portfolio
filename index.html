@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KOMAL DESURKAR — Digital Experience & Portfolio</title>
+  <meta name="description" content="Immersive Digital Experience of Komal Desurkar — Associate Business Analyst specializing in Requirement Gathering, SaaS B2B Delivery, SQL Analytics, and Power BI.">
+  <meta name="keywords" content="Komal Desurkar, Business Analyst, Associate Business Analyst, Portfolio, Awwwards, GSAP, SQL, Power BI, SaaS, e-Invoicing, Bengaluru">
+  <script>history.scrollRestoration = 'manual'; window.scrollTo(0, 0);</script>
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Custom Dynamic Cursor -->
+  <div class="custom-cursor-dot"></div>
+  <div class="custom-cursor-follower"></div>
+
+  <!-- Film Grain & Ambient Spotlight Overlay -->
+  <div class="grain-overlay"></div>
+  <div id="ambient-spotlight"></div>
+
+  <!-- Header Navigation -->
+  <header class="nav-header">
+    <a href="#" class="brand-logo">
+      <span class="brand-status-dot"></span>
+      KOMAL DESURKAR
+    </a>
+
+    <ul class="nav-menu">
+      <li><a href="#about" class="nav-item-link">01. Story</a></li>
+      <li><a href="#projects" class="nav-item-link">02. Exhibits</a></li>
+      <li><a href="#skills" class="nav-item-link">03. Constellation</a></li>
+      <li><a href="#experience" class="nav-item-link">04. Timeline</a></li>
+      <li><a href="#contact" class="nav-item-link">05. Terminal</a></li>
+    </ul>
+
+    <a href="#contact" class="nav-cta-btn magnetic-btn">Execute Terminal</a>
+  </header>
+
+  <main id="main-content">
+    <!-- ====================================================================
+         SECTION 1: CINEMATIC LANDING INTRO
+         ==================================================================== -->
+    <section id="hero" class="hero-cinematic">
+      <canvas id="hero-bg-canvas"></canvas>
+      
+      <!-- Horizontal Laser Beam Intro Element -->
+      <div class="intro-laser-line"></div>
+
+      <div class="hero-main-wrapper">
+        <div class="hero-tagline">
+          <span>/// Digital Portfolio Experience ///</span>
+        </div>
+
+        <h1 class="hero-name-title">
+          <span class="name-word">
+            <span class="letter">K</span><span class="letter">O</span><span class="letter">M</span><span class="letter">A</span><span class="letter">L</span>
+          </span>
+          <span class="name-word">
+            <span class="letter">D</span><span class="letter">E</span><span class="letter">S</span><span class="letter">U</span><span class="letter">R</span><span class="letter">K</span><span class="letter">A</span><span class="letter">R</span>
+          </span>
+        </h1>
+
+        <div class="hero-job-title">
+          <span class="text-rotate-wrapper" id="text-rotator">
+            <span class="text-rotate-inner" id="text-rotate-inner"></span>
+          </span>
+        </div>
+
+        <p class="hero-role-sub">
+          Bridging international B2B requirements, SaaS e-Invoicing architecture, SQL analytics, and data-driven execution.
+        </p>
+
+        <div class="hero-actions-group">
+          <a href="#projects" class="magnetic-btn btn-primary-glow">
+            Explore Exhibits <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="Komal_Desurkar_Resume.pdf" class="magnetic-btn btn-outline-glow" download="Komal_Desurkar_Resume.pdf" target="_blank">
+            PDF Resume <i class="fa-solid fa-file-pdf"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="scroll-explore-indicator">
+        <span class="scroll-text">Scroll to Explore</span>
+        <div class="scroll-line-anim"></div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 2: ABOUT ME — DOCUMENTARY STORYTELLING (SCROLL-DRIVEN)
+         ==================================================================== -->
+    <section id="about" class="section-documentary">
+      <div class="doc-sticky-container">
+        <!-- Floating Visual Backdrop Cards -->
+        <div class="doc-background-slides">
+          <div class="doc-bg-card card-left">
+            <h4 style="color: var(--accent-cyan); font-family: var(--font-mono); margin-bottom: 0.5rem;">[ B2B SaaS Ecosystem ]</h4>
+            <p style="color: var(--text-secondary); font-size: 0.9rem;">Supporting Agile delivery for international clients across Malaysia, UAE, and Philippines.</p>
+          </div>
+
+          <div class="doc-bg-card card-right">
+            <h4 style="color: var(--accent-indigo); font-family: var(--font-mono); margin-bottom: 0.5rem;">[ Quantitative Rigor ]</h4>
+            <p style="color: var(--text-secondary); font-size: 0.9rem;">M.Sc in Mathematics background applied to complex SQL data pipelines & Power BI dashboards.</p>
+          </div>
+
+          <div class="doc-bg-card card-center">
+            <h4 style="color: #ffffff; font-family: var(--font-mono); margin-bottom: 0.5rem;">[ 100% UAT Success ]</h4>
+            <p style="color: var(--text-secondary); font-size: 0.9rem;">Structuring BRD/FRD documentation and leading defect-free sprint sign-offs.</p>
+          </div>
+        </div>
+
+        <div class="doc-story-content">
+          <span class="doc-section-tag">01 /// The Story</span>
+          
+          <div class="doc-phrase" style="margin-bottom: 2rem;">
+            "I translate complex stakeholder vision into <mark>scalable technical architecture</mark>."
+          </div>
+
+          <div class="doc-phrase" style="margin-bottom: 2rem;">
+            "Specializing in international B2B SaaS e-Invoicing, API data mapping, and <mark>SQL analytics</mark>."
+          </div>
+
+          <div class="doc-phrase">
+            "Delivering <mark>15% faster release cycles</mark> and 20% higher business reporting accuracy."
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 3: FULL-VIEWPORT EXHIBITS (PROJECTS HORIZONTAL SCROLL)
+         ==================================================================== -->
+    <section id="projects" class="section-projects-pin">
+      <div class="projects-track">
+        
+        <!-- EXHIBIT 01 -->
+        <div class="project-exhibit">
+          <div class="exhibit-grid">
+            <div class="exhibit-info">
+              <div class="exhibit-num">EXHIBIT /// 01</div>
+              <h2 class="exhibit-title">SaaS e-Invoicing B2B Platform</h2>
+              <p class="exhibit-desc">
+                Supported Agile delivery for an international SaaS e-Invoicing platform compliance solution across Malaysia, UAE, and Philippines. Coordinated 5+ cross-functional teams to automate API data flows.
+              </p>
+
+              <div class="exhibit-stats-row">
+                <div class="exhibit-stat-item">
+                  <span class="exhibit-stat-val">15%+</span>
+                  <span class="exhibit-stat-lbl">Delivery Speed Gain</span>
+                </div>
+                <div class="exhibit-stat-item">
+                  <span class="exhibit-stat-val">20%+</span>
+                  <span class="exhibit-stat-lbl">Reporting Accuracy</span>
+                </div>
+              </div>
+
+              <a href="#contact" class="magnetic-btn btn-outline-glow">Inspect Architecture</a>
+            </div>
+
+            <div class="exhibit-preview-stage">
+              <div class="exhibit-mockup-screen">
+                <div class="exhibit-screen-badge"><i class="fa-solid fa-network-wired"></i> REST API & Tax Compliance</div>
+                <div class="exhibit-screen-content">
+                  <code>[REQ-EIN-001] Automated B2B Invoice Signing</code><br>
+                  <span style="color: var(--accent-cyan);">GIVEN</span> JSON payload received from vendor<br>
+                  <span style="color: var(--accent-cyan);">WHEN</span> Tax API validates schema & VAT rates<br>
+                  <span style="color: var(--accent-cyan);">THEN</span> Returns signed QR code & updates status 'COMPLIANT'
+                </div>
+                <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted);">
+                  Jira • Postman • SQL • Power BI • UAT
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- EXHIBIT 02 -->
+        <div class="project-exhibit">
+          <div class="exhibit-grid">
+            <div class="exhibit-info">
+              <div class="exhibit-num">EXHIBIT /// 02</div>
+              <h2 class="exhibit-title">Telecom Customer Churn Analytics</h2>
+              <p class="exhibit-desc">
+                Analyzed 7,000+ subscriber records using SQL analytical queries and Python exploratory data analysis (EDA). Isolated tenure and contract risk factors to formulate retention strategies.
+              </p>
+
+              <div class="exhibit-stats-row">
+                <div class="exhibit-stat-item">
+                  <span class="exhibit-stat-val">10%</span>
+                  <span class="exhibit-stat-lbl">Projected Churn Drop</span>
+                </div>
+                <div class="exhibit-stat-item">
+                  <span class="exhibit-stat-val">7,000+</span>
+                  <span class="exhibit-stat-lbl">Records Modeled</span>
+                </div>
+              </div>
+
+              <a href="#contact" class="magnetic-btn btn-outline-glow">Inspect Analytics</a>
+            </div>
+
+            <div class="exhibit-preview-stage">
+              <div class="exhibit-mockup-screen">
+                <div class="exhibit-screen-badge"><i class="fa-solid fa-chart-line"></i> Predictive Risk Model</div>
+                <div class="exhibit-screen-content">
+                  <span style="color: #818cf8;">WITH TenureSegment AS (</span><br>
+                  &nbsp;&nbsp;SELECT customer_id, churn_status,<br>
+                  &nbsp;&nbsp;CASE WHEN tenure <= 12 THEN 'High Risk'<br>
+                  &nbsp;&nbsp;ELSE 'Loyal' END AS tenure_bracket<br>
+                  <span style="color: #818cf8;">)</span>
+                </div>
+                <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted);">
+                  SQL • Python • Power BI • EDA
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- EXHIBIT 03 -->
+        <div class="project-exhibit">
+          <div class="exhibit-grid">
+            <div class="exhibit-info">
+              <div class="exhibit-num">EXHIBIT /// 03</div>
+              <h2 class="exhibit-title">Pizza Sales Market Strategy</h2>
+              <p class="exhibit-desc">
+                Evaluated 48,000+ transaction records using SQL and Excel to uncover seasonal demand variations. Built interactive Power BI dashboards to optimize product bundling efficiency.
+              </p>
+
+              <div class="exhibit-stats-row">
+                <div class="exhibit-stat-item">
+                  <span class="exhibit-stat-val">18%</span>
+                  <span class="exhibit-stat-lbl">Promo Efficiency</span>
+                </div>
+                <div class="exhibit-stat-item">
+                  <span class="exhibit-stat-val">48,000+</span>
+                  <span class="exhibit-stat-lbl">Orders Analyzed</span>
+                </div>
+              </div>
+
+              <a href="#contact" class="magnetic-btn btn-outline-glow">Inspect Dashboard</a>
+            </div>
+
+            <div class="exhibit-preview-stage">
+              <div class="exhibit-mockup-screen">
+                <div class="exhibit-screen-badge"><i class="fa-solid fa-database"></i> KPI Dashboard Model</div>
+                <div class="exhibit-screen-content">
+                  <code>[KPI Dashboard] Revenue Peaks & Order Volume</code><br>
+                  • Top Seller Categories Identified<br>
+                  • Targeted Bundling Strategy Implemented<br>
+                  • 18% Increase in Promotional ROI
+                </div>
+                <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted);">
+                  Power BI • Advanced Excel • SQL
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 4: INTERACTIVE SKILLS CONSTELLATION NODE NETWORK
+         ==================================================================== -->
+    <section id="skills" class="section-constellation">
+      <div class="constellation-header">
+        <span class="doc-section-tag">03 /// Interactive Ecosystem</span>
+        <h2>Skills Constellation</h2>
+        <p style="color: var(--text-secondary); margin-top: 0.8rem;">
+          Hover over floating technology nodes to draw magnetic force fields. Click any node to inspect experience & tools.
+        </p>
+      </div>
+
+      <div class="constellation-container">
+        <canvas id="constellation-canvas"></canvas>
+
+        <!-- Node Inspection Overlay Card -->
+        <div class="node-inspect-card" id="node-inspect-card">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem;">
+            <h3 id="inspect-title" style="color: #ffffff; font-family: var(--font-heading);">Technology</h3>
+            <span id="inspect-cat" style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-cyan);">Category</span>
+          </div>
+          <div id="inspect-level" style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--accent-emerald); margin-bottom: 0.6rem;">Level</div>
+          <p id="inspect-desc" style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.5;">Node details...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 5: PINNED EXPERIENCE TIMELINE
+         ==================================================================== -->
+    <section id="experience" class="section-timeline">
+      <div class="timeline-layout">
+        <div class="timeline-sticky-aside">
+          <span class="doc-section-tag">04 /// Journey</span>
+          <h2>Career & Education Timeline</h2>
+          <p style="color: var(--text-secondary); font-size: 0.95rem;">
+            Consistent track record of delivering cross-functional value across SaaS engineering & analytics.
+          </p>
+
+          <div class="timeline-progress-bar">
+            <div class="timeline-progress-fill"></div>
+          </div>
+        </div>
+
+        <div class="timeline-feed">
+          <!-- Item 1 -->
+          <div class="timeline-card">
+            <div class="timeline-date-badge">MAY 2025 — PRESENT</div>
+            <h3 class="timeline-role-title">Associate Business Analyst</h3>
+            <div class="timeline-company-name">Envision Beyond India Pvt. Ltd. | Bengaluru</div>
+            <ul class="timeline-details-list">
+              <li>Collaborated with International B2B stakeholders across Malaysia, UAE, and Philippines on a SaaS e-Invoicing project, improving delivery timelines by 15%.</li>
+              <li>Partnered with 5+ cross-functional engineering teams to automate APIs and build KPI dashboards.</li>
+              <li>Authored BRD/FRD documentation, sprint backlogs, and UAT matrices ensuring defect-free releases.</li>
+              <li>Enhanced business reporting accuracy by 20% through efficient SQL queries & Power BI models.</li>
+            </ul>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="timeline-card">
+            <div class="timeline-date-badge">JAN 2025 — JUL 2025</div>
+            <h3 class="timeline-role-title">Data Science Trainee</h3>
+            <div class="timeline-company-name">AlmaBetter | Bengaluru</div>
+            <ul class="timeline-details-list">
+              <li>Analyzed large datasets using Python and SQL for pattern identification and statistical modeling.</li>
+              <li>Conducted exploratory data analysis (EDA) to enhance business reporting accuracy.</li>
+              <li>Presented visualization dashboards and data insights to key stakeholders.</li>
+            </ul>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="timeline-card">
+            <div class="timeline-date-badge">JAN 2023 — NOV 2024</div>
+            <h3 class="timeline-role-title">Masters in Mathematics (M.Sc)</h3>
+            <div class="timeline-company-name">K.L.E Society's Raja Lakhamagouda Science Institute | Belgaum</div>
+            <ul class="timeline-details-list">
+              <li>Advanced research in Mathematical Logic, Statistical Modeling, and Quantitative Analysis.</li>
+            </ul>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="timeline-card">
+            <div class="timeline-date-badge">JUN 2019 — OCT 2022</div>
+            <h3 class="timeline-role-title">Bachelor of Science (B.Sc PCM)</h3>
+            <div class="timeline-company-name">Govindram Seksaria Science College | Belgaum</div>
+            <ul class="timeline-details-list">
+              <li>Core foundation in Physics, Chemistry, and Mathematics with focus on analytical problem solving.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 6: ACHIEVEMENTS & METRICS
+         ==================================================================== -->
+    <section class="section-achievements">
+      <div class="achieve-grid">
+        <div class="achieve-card">
+          <div class="achieve-num" data-target="15" data-suffix="%+">0%+</div>
+          <div class="achieve-label">Delivery Speed Gain</div>
+        </div>
+
+        <div class="achieve-card">
+          <div class="achieve-num" data-target="20" data-suffix="%+">0%+</div>
+          <div class="achieve-label">Reporting Accuracy</div>
+        </div>
+
+        <div class="achieve-card">
+          <div class="achieve-num" data-target="100" data-suffix="%">0%</div>
+          <div class="achieve-label">UAT Sign-Off Success</div>
+        </div>
+
+        <div class="achieve-card">
+          <div class="achieve-num" data-target="48" data-suffix="k+">0k+</div>
+          <div class="achieve-label">Records Analyzed</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 7: INTERACTIVE COMMAND TERMINAL (CONTACT)
+         ==================================================================== -->
+    <section id="contact" class="section-terminal-contact">
+      <div style="text-align: center; margin-bottom: 2.5rem;">
+        <span class="doc-section-tag">05 /// Interactive Contact CLI</span>
+        <h2 style="font-family: var(--font-display); font-size: clamp(2rem, 3.5vw, 3rem);">Command Line Contact</h2>
+        <p style="color: var(--text-secondary); margin-top: 0.5rem;">Type commands into the terminal below or click shortcuts to execute actions.</p>
+      </div>
+
+      <div class="terminal-wrapper">
+        <div class="terminal-header-bar">
+          <div class="terminal-dots">
+            <span class="t-dot red"></span>
+            <span class="t-dot yellow"></span>
+            <span class="t-dot green"></span>
+          </div>
+          <div class="terminal-title">komal@portfolio-v2.6.0:~ (zsh)</div>
+          <div></div>
+        </div>
+
+        <div class="terminal-body" id="terminal-body">
+          <div class="terminal-welcome-text">
+            Welcome to Komal Desurkar Interactive Terminal v2.6.0<br>
+            Type <span style="color: var(--accent-cyan); font-weight:700;">'help'</span> to view all available commands.
+          </div>
+        </div>
+
+        <div style="padding: 0 2rem 1.5rem 2rem; background: #070a12; border-top: 1px solid rgba(255,255,255,0.05);">
+          <div class="terminal-input-row">
+            <span class="terminal-prompt-symbol">komal@portfolio:~$</span>
+            <input type="text" id="terminal-input" class="terminal-input-field" placeholder="Type command here (e.g. 'hire', 'skills', 'about')..." autofocus>
+          </div>
+
+          <div class="quick-commands-bar">
+            <span class="cmd-shortcut-tag" data-cmd="resume">> resume</span>
+            <span class="cmd-shortcut-tag" data-cmd="hire">> hire</span>
+            <span class="cmd-shortcut-tag" data-cmd="about">> about</span>
+            <span class="cmd-shortcut-tag" data-cmd="projects">> projects</span>
+            <span class="cmd-shortcut-tag" data-cmd="skills">> skills</span>
+            <span class="cmd-shortcut-tag" data-cmd="experience">> experience</span>
+            <span class="cmd-shortcut-tag" data-cmd="clear">> clear</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer-minimal">
+    <p>© 2026 Komal Desurkar • Designed with Lenis, GSAP ScrollTrigger & HTML5 Canvas Node Engine</p>
+  </footer>
+
+  <!-- External Libraries: Lenis + GSAP + ScrollTrigger -->
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  
+  <!-- Main Script -->
+  <script src="script.js"></script>
+</body>
+</html>

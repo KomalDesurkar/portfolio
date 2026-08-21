@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Komal Desurkar - Resume</title>
+  <style>
+    @page {
+      size: letter;
+      margin: 12mm 14mm 12mm 14mm;
+    }
+    
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: #1e293b;
+      background-color: #ffffff;
+      line-height: 1.42;
+      font-size: 9.3pt;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .resume-container {
+      width: 100%;
+      max-width: 780px;
+      margin: 0 auto;
+    }
+
+    /* HEADER */
+    header {
+      text-align: center;
+      margin-bottom: 12px;
+      padding-bottom: 9px;
+      border-bottom: 2px solid #0f172a;
+    }
+
+    h1.name {
+      font-size: 21pt;
+      font-weight: 800;
+      letter-spacing: 0.6px;
+      color: #0f172a;
+      text-transform: uppercase;
+      margin-bottom: 2px;
+    }
+
+    .target-title {
+      font-size: 10pt;
+      font-weight: 700;
+      color: #0284c7;
+      letter-spacing: 0.5px;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+    }
+
+    .contact-info {
+      font-size: 8.8pt;
+      color: #475569;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
+
+    .contact-info a {
+      color: #0284c7;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .separator {
+      color: #cbd5e1;
+    }
+
+    /* SECTIONS */
+    section {
+      margin-bottom: 10px;
+    }
+
+    h2.section-title {
+      font-size: 9.8pt;
+      font-weight: 700;
+      color: #0f172a;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      border-bottom: 1px solid #cbd5e1;
+      padding-bottom: 2px;
+      margin-bottom: 5px;
+    }
+
+    /* SUMMARY */
+    .summary-text {
+      color: #334155;
+      text-align: left;
+      font-size: 9.1pt;
+      line-height: 1.38;
+    }
+
+    /* SKILLS */
+    .skills-list {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      font-size: 9pt;
+    }
+
+    .skill-entry {
+      line-height: 1.36;
+      color: #334155;
+    }
+
+    .skill-entry strong {
+      color: #0f172a;
+      font-weight: 600;
+    }
+
+    /* EXPERIENCE & PROJECTS */
+    .item-block {
+      margin-bottom: 7px;
+    }
+
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 2px;
+    }
+
+    .item-title {
+      font-size: 9.6pt;
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .item-role {
+      font-size: 9.3pt;
+      font-weight: 600;
+      color: #0284c7;
+    }
+
+    .item-meta {
+      font-size: 8.8pt;
+      font-weight: 600;
+      color: #475569;
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .item-location {
+      font-weight: 400;
+      color: #64748b;
+    }
+
+    ul.bullet-list {
+      list-style-type: disc;
+      margin-left: 17px;
+      margin-top: 2px;
+    }
+
+    ul.bullet-list li {
+      color: #334155;
+      font-size: 9pt;
+      line-height: 1.36;
+      margin-bottom: 2.5px;
+      text-align: left;
+    }
+
+    ul.bullet-list li strong {
+      color: #0f172a;
+      font-weight: 600;
+    }
+
+    /* EDUCATION */
+    .edu-block {
+      margin-bottom: 3px;
+    }
+
+    .edu-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .edu-degree {
+      font-size: 9.2pt;
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .edu-school {
+      color: #334155;
+      font-size: 9pt;
+    }
+
+    .edu-date {
+      font-size: 8.6pt;
+      font-weight: 600;
+      color: #475569;
+      white-space: nowrap;
+    }
+
+    .edu-focus {
+      font-size: 8.3pt;
+      color: #64748b;
+    }
+
+    @media print {
+      body {
+        background-color: #ffffff;
+      }
+      .resume-container {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="resume-container">
+    
+    <!-- HEADER -->
+    <header>
+      <h1 class="name">Komal Desurkar</h1>
+      <div class="target-title">Product Analyst | Project Delivery & Business Analyst</div>
+      <div class="contact-info">
+        <span>Bengaluru, Karnataka</span>
+        <span class="separator">•</span>
+        <span>+91 9886157539</span>
+        <span class="separator">•</span>
+        <a href="mailto:komaldesurkar15@gmail.com">komaldesurkar15@gmail.com</a>
+        <span class="separator">•</span>
+        <a href="https://linkedin.com/in/komaldesurkar">linkedin.com/in/komaldesurkar</a>
+        <span class="separator">•</span>
+        <a href="https://komal-desurkar-portfolio.netlify.app/">komal-desurkar-portfolio.netlify.app</a>
+      </div>
+    </header>
+
+    <!-- PROFESSIONAL SUMMARY -->
+    <section>
+      <h2 class="section-title">Professional Summary</h2>
+      <p class="summary-text">
+        <strong>Data-driven Product Analyst & Project Delivery Specialist</strong> with an <strong>M.Sc in Mathematics</strong> and proven experience driving Agile execution for international B2B SaaS solutions. Skilled in authoring <strong>PRDs, BRDs, and FRDs</strong>, coordinating 5+ cross-functional teams, and accelerating sprint delivery cycles by <strong>15%</strong>. Proficient in <strong>SQL, Power BI, Python, Jira, and REST APIs</strong> to monitor product KPIs, boost reporting accuracy by <strong>20%</strong>, and secure 100% defect-free UAT sign-offs.
+      </p>
+    </section>
+
+    <!-- CORE COMPETENCIES -->
+    <section>
+      <h2 class="section-title">Core Competencies & Technical Skills</h2>
+      <div class="skills-list">
+        <div class="skill-entry">
+          <strong>Product & Project Delivery:</strong> Agile / Scrum, Sprint Planning, Product Backlog Grooming, PRD / BRD / FRD, User Stories & Acceptance Criteria, Jira, Confluence, UAT Management, Roadmap Prioritization
+        </div>
+        <div class="skill-entry">
+          <strong>Analytics & Business Intelligence:</strong> SQL (PostgreSQL, MySQL, CTEs, Window Functions), Power BI, DAX Modeling, Python (Pandas, EDA), Advanced Excel, KPI Tracking & Dashboards, Funnel Analysis
+        </div>
+        <div class="skill-entry">
+          <strong>Technical Architecture & Testing:</strong> REST API Testing (Postman, JSON Schemas), As-Is / To-Be Workflow Modeling (BPMN), Data Mapping, SaaS B2B Systems, International Tax & E-Invoicing Compliance
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFESSIONAL EXPERIENCE -->
+    <section>
+      <h2 class="section-title">Professional Experience</h2>
+      
+      <!-- ROLE 1 -->
+      <div class="item-block">
+        <div class="item-header">
+          <div>
+            <span class="item-title">Envision Beyond India Pvt. Ltd.</span>
+            <span class="separator"> — </span>
+            <span class="item-role">Associate Business Analyst (Product & Delivery)</span>
+          </div>
+          <div class="item-meta">May 2025 – Present <span class="item-location">| Bengaluru, India</span></div>
+        </div>
+        <ul class="bullet-list">
+          <li><strong>Cross-Functional Agile Leadership:</strong> Coordinated project deliverables across <strong>5+ cross-functional teams</strong> (Engineering, QA, Tax Compliance, Client Stakeholders) for a SaaS e-Invoicing engine across Malaysia, UAE, and Philippines.</li>
+          <li><strong>Sprint Acceleration & Requirements:</strong> Reduced sprint release turnaround times by <strong>15%</strong> through clear PRD/BRD/FRD authoring, detailed user stories with acceptance criteria, and active backlog management in Jira.</li>
+          <li><strong>Product Analytics & Dashboards:</strong> Automated SQL queries and interactive <strong>Power BI dashboards</strong> to track product health metrics (API error rates, latency, transaction volume), increasing reporting accuracy by <strong>20%</strong>.</li>
+          <li><strong>API Integration & UAT Governance:</strong> Validated multi-country <strong>REST APIs and JSON payloads</strong> using Postman; authored test matrices to achieve <strong>100% first-pass UAT sign-offs</strong> with zero defect leakage.</li>
+        </ul>
+      </div>
+
+      <!-- ROLE 2 -->
+      <div class="item-block">
+        <div class="item-header">
+          <div>
+            <span class="item-title">AlmaBetter</span>
+            <span class="separator"> — </span>
+            <span class="item-role">Data Science & Analytics Trainee</span>
+          </div>
+          <div class="item-meta">Jan 2025 – Jul 2025 <span class="item-location">| Bengaluru, India</span></div>
+        </div>
+        <ul class="bullet-list">
+          <li><strong>Exploratory Data Analysis:</strong> Analyzed multi-dimensional datasets using <strong>Python (Pandas, NumPy) and SQL</strong> to evaluate feature engagement, customer drop-off patterns, and operational bottlenecks.</li>
+          <li><strong>Stakeholder Dashboards:</strong> Designed visual reporting models and presented data-driven product insights to leadership and mentors.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- KEY PROJECTS -->
+    <section>
+      <h2 class="section-title">Key Projects & Case Studies</h2>
+
+      <!-- PROJECT 1 -->
+      <div class="item-block">
+        <div class="item-header">
+          <div>
+            <span class="item-title">Customer Churn & Retention Analytics Model (Telecom)</span>
+            <span class="separator"> | </span>
+            <span style="font-size: 8.6pt; color: #475569;">SQL, Python, Statistical EDA, Power BI</span>
+          </div>
+          <div class="item-meta">Predictive Risk Modeling</div>
+        </div>
+        <ul class="bullet-list">
+          <li>Modeled <strong>7,000+ subscriber records</strong> with SQL CTEs and Python to identify high-risk churn signals across tenure and contracts; built an interactive Power BI retention matrix projected to reduce churn by <strong>10%</strong>.</li>
+        </ul>
+      </div>
+
+      <!-- PROJECT 2 -->
+      <div class="item-block">
+        <div class="item-header">
+          <div>
+            <span class="item-title">Commercial Sales Performance & Product Bundling Engine</span>
+            <span class="separator"> | </span>
+            <span style="font-size: 8.6pt; color: #475569;">SQL, Power BI, Advanced Excel</span>
+          </div>
+          <div class="item-meta">Revenue Optimization</div>
+        </div>
+        <ul class="bullet-list">
+          <li>Evaluated <strong>48,000+ transaction records</strong> to isolate peak demand trends and top product cross-sell affinities; constructed executive KPI dashboards that improved promotional campaign ROI by <strong>18%</strong>.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section>
+      <h2 class="section-title">Education</h2>
+      <div class="edu-block">
+        <div class="edu-header">
+          <div>
+            <span class="edu-degree">Master of Science (M.Sc) in Mathematics</span>
+            <span class="separator"> — </span>
+            <span class="edu-school">K.L.E Society's RL Science Institute, Belgaum</span>
+          </div>
+          <div class="edu-date">Jan 2023 – Nov 2024</div>
+        </div>
+        <div class="edu-focus"><em>Focus: Quantitative Analysis, Statistical Modeling, Mathematical Logic & Operations Research</em></div>
+      </div>
+
+      <div class="edu-block" style="margin-top: 3px;">
+        <div class="edu-header">
+          <div>
+            <span class="edu-degree">Bachelor of Science (B.Sc - PCM)</span>
+            <span class="separator"> — </span>
+            <span class="edu-school">Govindram Seksaria Science College, Belgaum</span>
+          </div>
+          <div class="edu-date">Jun 2019 – Oct 2022</div>
+        </div>
+        <div class="edu-focus"><em>Focus: Physics, Chemistry & Mathematics; Analytical Reasoning & Numerical Problem Solving</em></div>
+      </div>
+    </section>
+
+  </div>
+
+</body>
+</html>
